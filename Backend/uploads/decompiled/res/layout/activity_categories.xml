@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsingToolbarLayout" android:layout_width="fill_parent" android:layout_height="?collapsingToolbarLayoutMediumSize" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:toolbarId="@id/toolbar" style="?collapsingToolbarLayoutMediumStyle">
+            <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin">
+                <Button android:layout_gravity="end" android:id="@id/button_done" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/toolbar_button_margin" android:layout_marginRight="@dimen/toolbar_button_margin" android:text="@string/done" style="@style/Widget.Material3.Button.UnelevatedButton" />
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recyclerView" android:padding="@dimen/list_spacing_normal" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/fab_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_add" android:contentDescription="@string/add_new_category" app:fabSize="normal" app:layout_anchor="@id/recyclerView" app:layout_anchorGravity="end|bottom|center" app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior" app:layout_dodgeInsetEdges="bottom" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

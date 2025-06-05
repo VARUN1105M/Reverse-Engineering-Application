@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Kotatsu" parent="@style/Base.V27.Kotatsu" />
+    <style name="Base.V27.Kotatsu" parent="@style/Base.V23.Kotatsu">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">@bool/light_navigation_bar</item>
+    </style>
+</resources>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light" />
+    <style name="Base.Theme.Kotatsu" parent="@style/Theme.Material3.DayNight.NoActionBar">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:buttonStyle">?borderlessButtonStyle</item>
+        <item name="android:divider">@color/kotatsu_outline</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance.Widget.Menu</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.Kotatsu.Spinner.DropDown</item>
+        <item name="android:textAppearanceListItem">?textAppearanceBodyLarge</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.Kotatsu.Preference.Secondary</item>
+        <item name="android:statusBarColor">@color/dim</item>
+        <item name="android:navigationBarColor">@color/surface_amoled</item>
+        <item name="android:windowLightStatusBar">@bool/light_status_bar</item>
+        <item name="android:navigationBarDividerColor">@null</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="actionBarPopupTheme">@style/Widget.Material3.PopupMenu.ListPopupWindow</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Kotatsu.Menu</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_clear_material</item>
+        <item name="actionModeStyle">@style/Widget.Kotatsu.ActionMode</item>
+        <item name="actionModeWebSearchDrawable">@drawable/abc_ic_search_api_material</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.Kotatsu.AlertDialog</item>
+        <item name="appBarLayoutStyle">@style/Widget.Kotatsu.AppBarLayout</item>
+        <item name="bottomNavigationStyle">@style/Widget.Kotatsu.BottomNavigationView.ColoredIndicators</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Kotatsu.BottomSheetDialog</item>
+        <item name="bottomSheetDragHandleStyle">@style/Widget.Kotatsu.BottomSheet.DragHandle</item>
+        <item name="circularProgressIndicatorStyle">@style/Widget.Kotatsu.CircularProgressIndicator</item>
+        <item name="collapsingToolbarLayoutStyle">@style/Widget.Kotatsu.CollapsingToolbar</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorErrorContainer">@color/errorContainer</item>
+        <item name="colorOnBackground">@color/kotatsu_onSurface</item>
+        <item name="colorOnError">@color/onError</item>
+        <item name="colorOnErrorContainer">@color/onErrorContainer</item>
+        <item name="colorOnPrimary">@color/kotatsu_onPrimary</item>
+        <item name="colorOnPrimaryContainer">@color/kotatsu_onPrimaryContainer</item>
+        <item name="colorOnSecondary">@color/kotatsu_onSecondary</item>
+        <item name="colorOnSecondaryContainer">@color/kotatsu_onSecondaryContainer</item>
+        <item name="colorOnSurface">@color/kotatsu_onSurface</item>
+        <item name="colorOnSurfaceInverse">@color/kotatsu_inverseOnSurface</item>
+        <item name="colorOnSurfaceVariant">@color/kotatsu_onSurfaceVariant</item>
+        <item name="colorOnTertiary">@color/kotatsu_onTertiary</item>
+        <item name="colorOnTertiaryContainer">@color/kotatsu_onTertiaryContainer</item>
+        <item name="colorOutline">@color/kotatsu_outline</item>
+        <item name="colorOutlineVariant">@color/kotatsu_outline</item>
+        <item name="colorPrimary">@color/kotatsu_primary</item>
+        <item name="colorPrimaryContainer">@color/kotatsu_primaryContainer</item>
+        <item name="colorPrimaryInverse">@color/kotatsu_inversePrimary</item>
+        <item name="colorSecondary">@color/kotatsu_secondary</item>
+        <item name="colorSecondaryContainer">@color/kotatsu_secondaryContainer</item>
+        <item name="colorSurface">@color/kotatsu_surface</item>
+        <item name="colorSurfaceBright">@color/kotatsu_surfaceBright</item>
+        <item name="colorSurfaceContainer">@color/kotatsu_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/kotatsu_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/kotatsu_surfaceContainerHighest</item>
+        <item name="colorSurfaceContainerLow">@color/kotatsu_surfaceContainerLow</item>
+        <item name="colorSurfaceContainerLowest">@color/kotatsu_surfaceContainerLowest</item>
+        <item name="colorSurfaceDim">@color/kotatsu_surfaceDim</item>
+        <item name="colorSurfaceInverse">@color/kotatsu_inverseSurface</item>
+        <item name="colorSurfaceVariant">@color/kotatsu_surfaceVariant</item>
+        <item name="colorTertiary">@color/kotatsu_tertiary</item>
+        <item name="colorTertiaryContainer">@color/kotatsu_tertiaryContainer</item>
+        <item name="dotIndicatorStyle">@style/Widget.Kotatsu.DotIndicator</item>
+        <item name="fastScrollerStyle">@style/Widget.Kotatsu.FastScroller</item>
+        <item name="linearProgressIndicatorStyle">@style/Widget.Kotatsu.LinearProgressIndicator</item>
+        <item name="listItemTextViewStyle">@style/Widget.Kotatsu.ListItemTextView</item>
+        <item name="materialCardViewStyle">@style/Widget.Kotatsu.CardView.Filled</item>
+        <item name="materialSwitchStyle">@style/Widget.Material3.CompoundButton.MaterialSwitch</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.Kotatsu</item>
+        <item name="recyclerViewStyle">@style/Widget.Kotatsu.RecyclerView</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat.M3</item>
+        <item name="tabStyle">@style/Widget.Kotatsu.Tabs</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Kotatsu.Button</item>
+        <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.OutlinedBox</item>
+        <item name="toolbarStyle">@style/Widget.Material3.Toolbar</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="Theme.Kotatsu" parent="@style/Base.V23.Kotatsu" />
+    <style name="Theme.Kotatsu.Asuka" parent="@style/Theme.Kotatsu">
+        <item name="android:colorBackground">@color/background_asuka</item>
+        <item name="colorError">#ffba1a1a</item>
+        <item name="colorErrorContainer">#ffffdad6</item>
+        <item name="colorOnBackground">#ff201a1a</item>
+        <item name="colorOnError">#ffffffff</item>
+        <item name="colorOnErrorContainer">#ff410002</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnPrimaryContainer">#ff410005</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorOnSecondaryContainer">#ff301400</item>
+        <item name="colorOnSurface">#ff201a1a</item>
+        <item name="colorOnSurfaceInverse">#fffbeeec</item>
+        <item name="colorOnSurfaceVariant">#ff534342</item>
+        <item name="colorOnTertiary">#ffffffff</item>
+        <item name="colorOnTertiaryContainer">#ff271900</item>
+        <item name="colorOutline">#ff857372</item>
+        <item name="colorOutlineVariant">#ffd8c1c0</item>
+        <item name="colorPrimary">#ffba1928</item>
+        <item name="colorPrimaryContainer">#ffffdad7</item>
+        <item name="colorPrimaryInverse">#ffffb3af</item>
+        <item name="colorSecondary">#ff944b00</item>
+        <item name="colorSecondaryContainer">#ffffdcc5</item>
+        <item name="colorSurface">#fffff8f7</item>
+        <item name="colorSurfaceBright">#fffff8f7</item>
+        <item name="colorSurfaceContainer">#fff8ebea</item>
+        <item name="colorSurfaceContainerHigh">#fff2e5e4</item>
+        <item name="colorSurfaceContainerHighest">#ffede0de</item>
+        <item name="colorSurfaceContainerLow">#fffef1ef</item>
+        <item name="colorSurfaceContainerLowest">#ffffffff</item>
+        <item name="colorSurfaceDim">#ffe4d7d6</item>
+        <item name="colorSurfaceInverse">#ff362f2e</item>
+        <item name="colorSurfaceVariant">#fff4dddb</item>
+        <item name="colorTertiary">#ff7c5800</item>
+        <item name="colorTertiaryContainer">#ffffdea7</item>
+    </style>
+    <style name="Theme.Kotatsu.Mamimi" parent="@style/Theme.Kotatsu">
+        <item name="android:colorBackground">@color/background_mamimi</item>
+        <item name="colorError">#ffba1a1a</item>
+        <item name="colorErrorContainer">#ffffdad6</item>
+        <item name="colorOnBackground">#ff201a1a</item>
+        <item name="colorOnError">#ffffffff</item>
+        <item name="colorOnErrorContainer">#ff410002</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnPrimaryContainer">#ff40000e</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorOnSecondaryContainer">#ff001d33</item>
+        <item name="colorOnSurface">#ff201a1a</item>
+        <item name="colorOnSurfaceInverse">#fffbeeed</item>
+        <item name="colorOnSurfaceVariant">#ff524344</item>
+        <item name="colorOnTertiary">#ffffffff</item>
+        <item name="colorOnTertiaryContainer">#ff301400</item>
+        <item name="colorOutline">#ff857373</item>
+        <item name="colorOutlineVariant">#ffd7c1c2</item>
+        <item name="colorPrimary">#ff9c404b</item>
+        <item name="colorPrimaryContainer">#ffffdadb</item>
+        <item name="colorPrimaryInverse">#ffffb2b7</item>
+        <item name="colorSecondary">#ff00639d</item>
+        <item name="colorSecondaryContainer">#ffcfe5ff</item>
+        <item name="colorSurface">#fffff8f7</item>
+        <item name="colorSurfaceBright">#fffff8f7</item>
+        <item name="colorSurfaceContainer">#fff8ebeb</item>
+        <item name="colorSurfaceContainerHigh">#fff2e5e5</item>
+        <item name="colorSurfaceContainerHighest">#ffece0df</item>
+        <item name="colorSurfaceContainerLow">#fffef1f0</item>
+        <item name="colorSurfaceContainerLowest">#ffffffff</item>
+        <item name="colorSurfaceDim">#ffe4d7d7</item>
+        <item name="colorSurfaceInverse">#ff362f2f</item>
+        <item name="colorSurfaceVariant">#fff4ddde</item>
+        <item name="colorTertiary">#ff944a01</item>
+        <item name="colorTertiaryContainer">#ffffdcc6</item>
+    </style>
+    <style name="Theme.Kotatsu.Miku" parent="@style/Theme.Kotatsu">
+        <item name="android:colorBackground">@color/background_miku</item>
+        <item name="colorError">#ffb81f1e</item>
+        <item name="colorErrorContainer">#ffffdad6</item>
+        <item name="colorOnBackground">#ff191c1c</item>
+        <item name="colorOnError">#ffffffff</item>
+        <item name="colorOnErrorContainer">#ff410002</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnPrimaryContainer">#ff00201d</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorOnSecondaryContainer">#ff051f1d</item>
+        <item name="colorOnSurface">#ff191c1c</item>
+        <item name="colorOnSurfaceInverse">#ffeff1f0</item>
+        <item name="colorOnSurfaceVariant">#ff3f4947</item>
+        <item name="colorOnTertiary">#ffffffff</item>
+        <item name="colorOnTertiaryContainer">#ff001d32</item>
+        <item name="colorOutline">#ff6f7977</item>
+        <item name="colorOutlineVariant">#ffbec9c6</item>
+        <item name="colorPrimary">#ff006a63</item>
+        <item name="colorPrimaryContainer">#ff72f7eb</item>
+        <item name="colorPrimaryInverse">#ff50dbcf</item>
+        <item name="colorSecondary">#ff4a6360</item>
+        <item name="colorSecondaryContainer">#ffcce8e4</item>
+        <item name="colorSurface">#fff7faf8</item>
+        <item name="colorSurfaceBright">#fff7faf8</item>
+        <item name="colorSurfaceContainer">#ffeceeed</item>
+        <item name="colorSurfaceContainerHigh">#ffe6e9e7</item>
+        <item name="colorSurfaceContainerHighest">#ffe0e3e1</item>
+        <item name="colorSurfaceContainerLow">#fff2f4f2</item>
+        <item name="colorSurfaceContainerLowest">#ffffffff</item>
+        <item name="colorSurfaceDim">#ffd8dbd9</item>
+        <item name="colorSurfaceInverse">#ff2d3130</item>
+        <item name="colorSurfaceVariant">#ffdae5e2</item>
+        <item name="colorTertiary">#ff00639a</item>
+        <item name="colorTertiaryContainer">#ffcee5ff</item>
+    </style>
+    <style name="Theme.Kotatsu.Mion" parent="@style/Theme.Kotatsu">
+        <item name="android:colorBackground">@color/background_mion</item>
+        <item name="colorError">#ffba1a1a</item>
+        <item name="colorErrorContainer">#ffffdad6</item>
+        <item name="colorOnBackground">#ff191c1a</item>
+        <item name="colorOnError">#ffffffff</item>
+        <item name="colorOnErrorContainer">#ff410002</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnPrimaryContainer">#ff002113</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorOnSecondaryContainer">#ff231b00</item>
+        <item name="colorOnSurface">#ff191c1a</item>
+        <item name="colorOnSurfaceInverse">#ffeff1ed</item>
+        <item name="colorOnSurfaceVariant">#ff404943</item>
+        <item name="colorOnTertiary">#ffffffff</item>
+        <item name="colorOnTertiaryContainer">#ff400011</item>
+        <item name="colorOutline">#ff707973</item>
+        <item name="colorOutlineVariant">#ffc0c9c1</item>
+        <item name="colorPrimary">#ff006c48</item>
+        <item name="colorPrimaryContainer">#ff8cf7c2</item>
+        <item name="colorPrimaryInverse">#ff70dba8</item>
+        <item name="colorSecondary">#ff725c00</item>
+        <item name="colorSecondaryContainer">#ffffe080</item>
+        <item name="colorSurface">#fff8faf6</item>
+        <item name="colorSurfaceBright">#fff8faf6</item>
+        <item name="colorSurfaceContainer">#ffeceeea</item>
+        <item name="colorSurfaceContainerHigh">#ffe7e9e5</item>
+        <item name="colorSurfaceContainerHighest">#ffe1e3df</item>
+        <item name="colorSurfaceContainerLow">#fff2f4f0</item>
+        <item name="colorSurfaceContainerLowest">#ffffffff</item>
+        <item name="colorSurfaceDim">#ffd8dbd6</item>
+        <item name="colorSurfaceInverse">#ff2e312f</item>
+        <item name="colorSurfaceVariant">#ffdce5dd</item>
+        <item name="colorTertiary">#ff9b404f</item>
+        <item name="colorTertiaryContainer">#ffffd9dc</item>
+    </style>
+    <style name="Theme.Kotatsu.Rikka" parent="@style/Theme.Kotatsu">
+        <item name="android:colorBackground">@color/background_rikka</item>
+        <item name="colorError">#ffba1a1a</item>
+        <item name="colorErrorContainer">#ffffdad6</item>
+        <item name="colorOnBackground">#ff1c1b1f</item>
+        <item name="colorOnError">#ffffffff</item>
+        <item name="colorOnErrorContainer">#ff410002</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnPrimaryContainer">#ff140463</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorOnSecondaryContainer">#ff410008</item>
+        <item name="colorOnSurface">#ff1c1b1f</item>
+        <item name="colorOnSurfaceInverse">#fff4eff4</item>
+        <item name="colorOnSurfaceVariant">#ff47464f</item>
+        <item name="colorOnTertiary">#ffffffff</item>
+        <item name="colorOnTertiaryContainer">#ff410007</item>
+        <item name="colorOutline">#ff787680</item>
+        <item name="colorOutlineVariant">#ffc8c5d0</item>
+        <item name="colorPrimary">#ff5954a8</item>
+        <item name="colorPrimaryContainer">#ffe3dfff</item>
+        <item name="colorPrimaryInverse">#ffc5c0ff</item>
+        <item name="colorSecondary">#ffa8363d</item>
+        <item name="colorSecondaryContainer">#ffffdad9</item>
+        <item name="colorSurface">#fffcf8fd</item>
+        <item name="colorSurfaceBright">#fffcf8fd</item>
+        <item name="colorSurfaceContainer">#fff1ecf1</item>
+        <item name="colorSurfaceContainerHigh">#ffebe7ec</item>
+        <item name="colorSurfaceContainerHighest">#ffe5e1e6</item>
+        <item name="colorSurfaceContainerLow">#fff6f2f7</item>
+        <item name="colorSurfaceContainerLowest">#ffffffff</item>
+        <item name="colorSurfaceDim">#ffddd9dd</item>
+        <item name="colorSurfaceInverse">#ff313034</item>
+        <item name="colorSurfaceVariant">#ffe5e1ec</item>
+        <item name="colorTertiary">#ff9c4142</item>
+        <item name="colorTertiaryContainer">#ffffdad8</item>
+    </style>
+    <style name="Theme.Kotatsu.Sakura" parent="@style/Theme.Kotatsu">
+        <item name="android:colorBackground">@color/background_sakura</item>
+        <item name="colorError">#ffba1a1a</item>
+        <item name="colorErrorContainer">#ffffdad6</item>
+        <item name="colorOnBackground">#ff201a1b</item>
+        <item name="colorOnError">#ffffffff</item>
+        <item name="colorOnErrorContainer">#ff410002</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnPrimaryContainer">#ff3e001d</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorOnSecondaryContainer">#ff3b0900</item>
+        <item name="colorOnSurface">#ff201a1b</item>
+        <item name="colorOnSurfaceInverse">#fffaeeef</item>
+        <item name="colorOnSurfaceVariant">#ff514347</item>
+        <item name="colorOnTertiary">#ffffffff</item>
+        <item name="colorOnTertiaryContainer">#ff2e1500</item>
+        <item name="colorOutline">#ff837377</item>
+        <item name="colorOutlineVariant">#ffd5c2c6</item>
+        <item name="colorPrimary">#ffb31a62</item>
+        <item name="colorPrimaryContainer">#ffffd9e2</item>
+        <item name="colorPrimaryInverse">#ffffb1c8</item>
+        <item name="colorSecondary">#ffb12e00</item>
+        <item name="colorSecondaryContainer">#ffffdbd1</item>
+        <item name="colorSurface">#fffff8f8</item>
+        <item name="colorSurfaceBright">#fffff8f8</item>
+        <item name="colorSurfaceContainer">#fff7ebec</item>
+        <item name="colorSurfaceContainerHigh">#fff1e5e7</item>
+        <item name="colorSurfaceContainerHighest">#ffebe0e1</item>
+        <item name="colorSurfaceContainerLow">#fffdf1f2</item>
+        <item name="colorSurfaceContainerLowest">#ffffffff</item>
+        <item name="colorSurfaceDim">#ffe3d7d9</item>
+        <item name="colorSurfaceInverse">#ff352f30</item>
+        <item name="colorSurfaceVariant">#fff2dde1</item>
+        <item name="colorTertiary">#ff8f4e00</item>
+        <item name="colorTertiaryContainer">#ffffdcc2</item>
+    </style>
+    <style name="ThemeOverlay.Material3.AutoCompleteTextView" parent="@style/Base.ThemeOverlay.Material3.AutoCompleteTextView">
+        <item name="colorControlNormal">@color/m3_textfield_indicator_text_color</item>
+    </style>
+    <style name="ThemeOverlay.Material3.Chip" parent="">
+        <item name="colorControlNormal">@color/m3_chip_text_color</item>
+    </style>
+    <style name="ThemeOverlay.Material3.Chip.Assist" parent="">
+        <item name="colorControlNormal">@color/m3_assist_chip_icon_tint_color</item>
+    </style>
+    <style name="ThemeOverlay.Material3.TextInputEditText" parent="@style/Base.ThemeOverlay.Material3.TextInputEditText">
+        <item name="colorControlNormal">@color/m3_textfield_indicator_text_color</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.CheckBox" parent="@style/Base.Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/m3_selection_control_ripple</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.RadioButton" parent="@style/Base.Widget.Material3.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/m3_radiobutton_ripple</item>
+    </style>
+    <style name="Widget.Material3.CompoundButton.Switch" parent="@style/Base.Widget.Material3.CompoundButton.Switch">
+        <item name="android:background">@drawable/m3_selection_control_ripple</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu">
+        <item name="android:popupBackground">?popupMenuBackground</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">?popupMenuBackground</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="Base.V23.Kotatsu" parent="@style/Base.Theme.Kotatsu">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/dim</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Theme.Kotatsu.Kanade" parent="@style/Theme.Kotatsu">
+        <item name="android:colorBackground">@color/background_kanade</item>
+        <item name="colorError">#ffba1a1a</item>
+        <item name="colorErrorContainer">#ffffdad6</item>
+        <item name="colorOnBackground">#ff202020</item>
+        <item name="colorOnError">#ffffffff</item>
+        <item name="colorOnErrorContainer">#ff410002</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnPrimaryContainer">#ff404040</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorOnSecondaryContainer">#ff474747</item>
+        <item name="colorOnSurface">#ff202020</item>
+        <item name="colorOnSurfaceInverse">#fff1f1f1</item>
+        <item name="colorOnSurfaceVariant">#ff505050</item>
+        <item name="colorOnTertiary">#ffffffff</item>
+        <item name="colorOnTertiaryContainer">#ff252525</item>
+        <item name="colorOutline">#ff808080</item>
+        <item name="colorOutlineVariant">#ffd5d5d5</item>
+        <item name="colorPrimary">#ff606060</item>
+        <item name="colorPrimaryContainer">#ffd3d3d3</item>
+        <item name="colorPrimaryInverse">#ff989898</item>
+        <item name="colorSecondary">#ff9c9c9c</item>
+        <item name="colorSecondaryContainer">#ffc1c1c1</item>
+        <item name="colorSurface">#fff3f3f3</item>
+        <item name="colorSurfaceBright">#ffededed</item>
+        <item name="colorSurfaceContainer">#ffe4e4e4</item>
+        <item name="colorSurfaceContainerHigh">#ffe6e6e6</item>
+        <item name="colorSurfaceContainerHighest">#ffd8d8d8</item>
+        <item name="colorSurfaceContainerLow">#ffe3e3e3</item>
+        <item name="colorSurfaceContainerLowest">#ffffffff</item>
+        <item name="colorSurfaceDim">#ffdcdcdc</item>
+        <item name="colorSurfaceInverse">#ff373737</item>
+        <item name="colorSurfaceVariant">#ffc6c6c6</item>
+        <item name="colorTertiary">#ff919191</item>
+        <item name="colorTertiaryContainer">#ffc1c1c1</item>
+    </style>
+</resources>

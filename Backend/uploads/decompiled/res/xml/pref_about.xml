@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:key="app_version" android:summary="@string/check_for_updates" />
+    <SwitchPreferenceCompat android:title="@string/allow_unstable_updates" android:key="updates_unstable" android:summary="@string/allow_unstable_updates_summary" android:defaultValue="false" />
+    <Preference android:persistent="false" android:title="@string/user_manual" android:key="about_help" android:summary="@string/url_user_manual" app:allowDividerAbove="true" />
+    <Preference android:persistent="false" android:title="@string/source_code" android:key="about_github" android:summary="@string/url_github" />
+    <Preference android:persistent="false" android:title="@string/about_app_translation_summary" android:key="about_app_translation" android:summary="@string/url_weblate" />
+    <Preference android:persistent="false" android:title="@string/telegram_group" android:key="about_telegram" android:summary="@string/url_telegram_web" />
+</PreferenceScreen>

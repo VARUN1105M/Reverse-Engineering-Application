@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_pause" android:id="@id/action_pause" android:visible="false" android:title="@string/pause" app:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_action_resume" android:id="@id/action_resume" android:visible="false" android:title="@string/resume" app:showAsAction="ifRoom|withText" />
+    <item android:id="@id/action_cancel_all" android:title="@string/cancel_all" app:showAsAction="never" />
+    <item android:id="@id/action_remove_completed" android:title="@string/remove_completed" app:showAsAction="never" />
+    <item android:id="@id/action_settings" android:title="@string/settings" app:showAsAction="never" />
+</menu>

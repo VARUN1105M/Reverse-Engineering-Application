@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/fastscroll_bubble_radius" android:topRightRadius="@dimen/fastscroll_bubble_radius" android:bottomLeftRadius="@dimen/fastscroll_bubble_radius" android:bottomRightRadius="8.0dip" />
+    <size android:height="@dimen/fastscroll_bubble_size" android:width="@dimen/fastscroll_bubble_size" />
+    <padding android:left="@dimen/fastscroll_bubble_padding" android:right="@dimen/fastscroll_bubble_padding" />
+</shape>

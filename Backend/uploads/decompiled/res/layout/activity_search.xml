@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:liftOnScroll="false">
+        <org.koitharu.kotatsu.core.ui.widgets.WindowInsetHolder android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways|snap" />
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_scrollFlags="scroll|enterAlways" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <org.koitharu.kotatsu.core.ui.list.fastscroll.FastScrollRecyclerView android:orientation="vertical" android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

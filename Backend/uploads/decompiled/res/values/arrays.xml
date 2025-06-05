@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backup_frequency">
+        <item>@string/frequency_every_day</item>
+        <item>@string/frequency_every_2_days</item>
+        <item>@string/frequency_once_per_week</item>
+        <item>@string/frequency_twice_per_month</item>
+        <item>@string/frequency_once_per_month</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="details_tabs">
+        <item>@string/last_used</item>
+        <item>@string/chapters</item>
+        <item>@string/pages</item>
+        <item>@string/bookmarks</item>
+    </string-array>
+    <string-array name="details_tabs_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="doh_providers">
+        <item>@string/disabled</item>
+        <item>Google</item>
+        <item>CloudFlare</item>
+        <item>AdGuard</item>
+        <item>0ms</item>
+    </string-array>
+    <string-array name="download_formats">
+        <item>@string/automatic</item>
+        <item>@string/single_cbz_file</item>
+        <item>@string/multiple_cbz_files</item>
+    </string-array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="image_proxies">
+        <item>@string/none</item>
+        <item>wsrv.nl</item>
+        <item>0ms.dev</item>
+    </string-array>
+    <array name="keyguard_biometric_and_credential_exclude_vendors" />
+    <string-array name="list_modes">
+        <item>@string/list</item>
+        <item>@string/detailed_list</item>
+        <item>@string/grid</item>
+    </string-array>
+    <string-array name="metered_network_options">
+        <item>@string/allow_always</item>
+        <item>@string/ask_every_time</item>
+        <item>@string/dont_allow</item>
+    </string-array>
+    <string-array name="network_policy">
+        <item>@string/always</item>
+        <item>@string/only_using_wifi</item>
+        <item>@string/never</item>
+    </string-array>
+    <string-array name="progress_indicators">
+        <item>@string/disabled</item>
+        <item>@string/percent_read</item>
+        <item>@string/percent_left</item>
+        <item>@string/chapters_read</item>
+        <item>@string/chapters_left</item>
+    </string-array>
+    <string-array name="proxy_types">
+        <item>@string/disabled</item>
+        <item>HTTP</item>
+        <item>SOCKS (v4/v5)</item>
+    </string-array>
+    <string-array name="reader_animation">
+        <item>@string/disabled</item>
+        <item>@string/system_default</item>
+        <item>@string/advanced</item>
+    </string-array>
+    <string-array name="reader_backgrounds">
+        <item>@string/system_default</item>
+        <item>@string/color_light</item>
+        <item>@string/color_dark</item>
+        <item>@string/color_white</item>
+        <item>@string/color_black</item>
+    </string-array>
+    <string-array name="reader_crop">
+        <item>@string/pages</item>
+        <item>@string/webtoon</item>
+    </string-array>
+    <string-array name="reader_modes">
+        <item>@string/standard</item>
+        <item>@string/right_to_left</item>
+        <item>@string/vertical</item>
+        <item>@string/webtoon</item>
+    </string-array>
+    <string-array name="screen_orientations">
+        <item>@string/system_default</item>
+        <item>@string/automatic</item>
+        <item>@string/portrait</item>
+        <item>@string/landscape</item>
+    </string-array>
+    <string-array name="screenshots_policy">
+        <item>@string/screenshots_allow</item>
+        <item>@string/screenshots_block_nsfw</item>
+        <item>@string/screenshots_block_incognito</item>
+        <item>@string/screenshots_block_all</item>
+    </string-array>
+    <string-array name="scrobbling_statuses">
+        <item>@string/status_planned</item>
+        <item>@string/status_reading</item>
+        <item>@string/status_re_reading</item>
+        <item>@string/status_completed</item>
+        <item>@string/status_on_hold</item>
+        <item>@string/status_dropped</item>
+    </string-array>
+    <string-array name="sync_url_list">
+        <item>@string/sync_url_default</item>
+        <item>https://moe.shirizu.org</item>
+        <item>http://86.57.183.214:8081</item>
+    </string-array>
+    <string-array name="themes">
+        <item>@string/follow_system</item>
+        <item>@string/light</item>
+        <item>@string/dark</item>
+    </string-array>
+    <string-array name="track_sources">
+        <item>@string/favourites</item>
+        <item>@string/history</item>
+    </string-array>
+    <string-array name="tracker_download_strategies">
+        <item>@string/never</item>
+        <item>@string/manga_with_downloaded_chapters</item>
+    </string-array>
+    <string-array name="tracker_frequency">
+        <item>@string/manual</item>
+        <item>@string/less_frequently</item>
+        <item>@string/system_default</item>
+        <item>@string/more_frequently</item>
+    </string-array>
+    <string-array name="values_backup_frequency">
+        <item>1</item>
+        <item>2</item>
+        <item>7</item>
+        <item>14</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="values_image_proxies">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="values_network_policy">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="values_proxy_types">
+        <item>DIRECT</item>
+        <item>HTTP</item>
+        <item>SOCKS</item>
+    </string-array>
+    <string-array name="values_reader_crop">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="values_theme">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="values_track_sources">
+        <item>favourites</item>
+        <item>history</item>
+    </string-array>
+    <string-array name="values_track_sources_default">
+        <item>favourites</item>
+    </string-array>
+    <string-array name="values_tracker_frequency">
+        <item>-1</item>
+        <item>0.4</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="zoom_modes">
+        <item>@string/zoom_mode_fit_center</item>
+        <item>@string/zoom_mode_fit_height</item>
+        <item>@string/zoom_mode_fit_width</item>
+        <item>@string/zoom_mode_keep_start</item>
+    </string-array>
+</resources>

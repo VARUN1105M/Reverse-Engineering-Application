@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat android:persistent="false" android:layout="@layout/preference_toggle_header" android:title="@string/enable_source" android:key="enable" android:order="0" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/download_slowdown" android:key="slowdown" android:summary="@string/download_slowdown_summary" android:order="105" android:defaultValue="false" />
+    <Preference android:icon="@drawable/ic_open_external" android:persistent="false" android:title="@string/open_in_browser" android:key="open_browser" android:order="500" app:allowDividerAbove="true" app:isPreferenceVisible="false" />
+</PreferenceScreen>

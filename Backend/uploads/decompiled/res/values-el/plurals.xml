@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chapters">
+        <item quantity="other">%1$d κεφάλαια</item>
+        <item quantity="one">%1$d κεφάλαιο</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d μέρες πριν</item>
+        <item quantity="one">%1$d μέρα πριν</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d ώρες πριν</item>
+        <item quantity="one">%1$d ώρα πριν</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="other">%1$d στοιχεία</item>
+        <item quantity="one">%1$d στοιχείο</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d λεπτά πριν</item>
+        <item quantity="one">%1$d λεπτό πριν</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">%1$d μήνες πριν</item>
+        <item quantity="one">%1$d μήνας πριν</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="new_chapters">
+        <item quantity="other">%1$d νέα κεφάλαια</item>
+        <item quantity="one">%1$d νέο κεφάλαιο</item>
+    </plurals>
+</resources>

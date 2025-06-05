@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="acra_enable_job_service">false</bool>
+    <bool name="acra_enable_legacy_service">true</bool>
+    <bool name="com_samsung_android_icon_container_has_icon_container">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="is_color_themes_available">false</bool>
+    <bool name="is_sync_enabled">true</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="light_navigation_bar">false</bool>
+    <bool name="light_status_bar">true</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

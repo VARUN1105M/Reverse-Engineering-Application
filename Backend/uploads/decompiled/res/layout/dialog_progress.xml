@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:padding="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceBodyLarge" android:textColor="?android:textColorPrimary" android:id="@id/textView_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:max="100" android:indeterminate="true" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?android:textColorSecondary" android:id="@id/textView_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+</LinearLayout>

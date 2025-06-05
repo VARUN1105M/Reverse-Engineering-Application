@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.fragment.app.FragmentContainerView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <org.koitharu.kotatsu.reader.ui.ReaderInfoBarView android:textSize="12.0sp" android:layout_gravity="top" android:id="@id/infoBar" android:paddingLeft="6.0dip" android:paddingTop="8.0dip" android:paddingRight="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <org.koitharu.kotatsu.core.ui.widgets.ZoomControl android:layout_gravity="end|bottom|center" android:orientation="vertical" android:id="@id/zoomControl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:layout_dodgeInsetEdges="bottom" />
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/m3_card_elevated_elevation" app:elevation="@dimen/m3_card_elevated_elevation" app:liftOnScroll="false">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.material.slider.Slider android:id="@id/slider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stepSize="1.0" android:valueFrom="0" app:labelBehavior="floating" app:tickVisible="false" />
+            </com.google.android.material.appbar.MaterialToolbar>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <org.koitharu.kotatsu.reader.ui.ReaderToastView android:theme="@style/ThemeOverlay.Material3.Dark" android:textAppearance="?textAppearanceBodySmall" android:layout_gravity="bottom|center" android:id="@id/toastView" android:background="@drawable/bg_reader_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:singleLine="true" android:drawablePadding="6.0dip" app:layout_dodgeInsetEdges="bottom" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_loading" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        <TextView android:textAppearance="?textAppearanceBody2" android:id="@id/textView_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/loading_" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

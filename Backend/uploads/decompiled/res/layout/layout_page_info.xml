@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:indeterminate="true" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="60.0dip" android:layout_marginEnd="60.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:gravity="center_horizontal" android:id="@id/textView_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="12.0dip" android:textAlignment="center" app:drawableTopCompat="@drawable/ic_error_large" />
+        <Button android:id="@id/button_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/try_again" style="@style/Widget.Material3.Button.TonalButton" />
+        <Button android:id="@id/button_error_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/details" style="@style/Widget.Material3.Button.TextButton" />
+    </LinearLayout>
+</merge>

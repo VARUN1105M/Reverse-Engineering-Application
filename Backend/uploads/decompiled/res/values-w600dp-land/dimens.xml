@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_face_margin_start">64.0dip</dimen>
+    <dimen name="grid_spacing">6.0dip</dimen>
+    <dimen name="preferred_grid_width">140.0dip</dimen>
+</resources>

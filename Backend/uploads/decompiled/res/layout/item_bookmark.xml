@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="@dimen/bookmark_item_height" app:cardCornerRadius="12.0dip" style="@style/Widget.Material3.CardView.Outlined"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.koitharu.kotatsu.core.ui.widgets.CoverImageView android:orientation="vertical" android:id="@id/imageView_thumb" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceTitleSmall" android:gravity="start|center" android:id="@id/textView_title" android:padding="@dimen/grid_spacing" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/button_more" android:layout_alignParentStart="true" />
+    <com.google.android.material.button.MaterialButton android:id="@id/button_more" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" android:layout_alignBaseline="@id/textView_title" android:layout_alignParentEnd="true" style="@style/Widget.Kotatsu.Button.More.Small" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/textView_value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignBaseline="@id/textView_title" android:paddingEnd="@dimen/margin_small" android:layout_alignParentEnd="true" />
+</merge>

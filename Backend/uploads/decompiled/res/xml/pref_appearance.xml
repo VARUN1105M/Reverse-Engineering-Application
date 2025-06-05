@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/appearance"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.koitharu.kotatsu.settings.utils.ThemeChooserPreference android:title="@string/color_theme" android:key="color_theme" app:isPreferenceVisible="@bool/is_color_themes_available" />
+    <ListPreference android:entries="@array/themes" android:title="@string/theme" android:key="theme" android:defaultValue="-1" android:entryValues="@array/values_theme" app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat android:title="@string/black_dark_theme" android:key="amoled_theme" android:summary="@string/black_dark_theme_summary" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/manga_list">
+        <ListPreference android:entries="@array/list_modes" android:title="@string/list_mode" android:key="list_mode_2" app:useSimpleSummaryProvider="true" />
+        <org.koitharu.kotatsu.settings.utils.SliderPreference android:stepSize="5.0" android:title="@string/grid_size" android:key="grid_size" android:valueFrom="50" android:valueTo="150" app:defaultValue="100" />
+        <SwitchPreferenceCompat android:title="@string/show_quick_filters" android:key="quick_filter" android:summary="@string/show_quick_filters_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/progress_indicators" android:title="@string/show_reading_indicators" android:key="progress_indicators" app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/details">
+        <SwitchPreferenceCompat android:title="@string/show_pages_thumbs" android:key="pages_tab" android:summary="@string/show_pages_thumbs_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/details_tabs" android:title="@string/default_tab" android:key="details_tab" android:dependency="pages_tab" android:defaultValue="-1" android:entryValues="@array/details_tabs_values" app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceScreen android:title="@string/main_screen_sections" android:key="nav_main" android:fragment="org.koitharu.kotatsu.settings.nav.NavConfigFragment" app:allowDividerAbove="true" />
+    <SwitchPreferenceCompat android:title="@string/show_labels_in_navbar" android:key="nav_labels" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:title="@string/pin_navigation_ui" android:key="nav_pinned" android:summary="@string/pin_navigation_ui_summary" android:defaultValue="false" />
+    <org.koitharu.kotatsu.settings.utils.ActivityListPreference android:title="@string/language" android:key="app_locale" />
+    <SwitchPreferenceCompat android:title="@string/exit_confirmation" android:key="exit_confirm" android:summary="@string/exit_confirmation_summary" android:defaultValue="false" />
+</PreferenceScreen>

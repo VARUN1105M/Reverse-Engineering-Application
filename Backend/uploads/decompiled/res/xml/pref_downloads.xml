@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/downloads"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:title="@string/local_manga_directories" android:key="local_manga_dirs" />
+    <Preference android:persistent="false" android:title="@string/manga_save_location" android:key="local_storage" />
+    <ListPreference android:entries="@array/download_formats" android:title="@string/preferred_download_format" android:key="downloads_format" app:useSimpleSummaryProvider="true" />
+    <ListPreference android:entries="@array/metered_network_options" android:title="@string/download_over_cellular" android:key="downloads_metered_network" app:useSimpleSummaryProvider="true" />
+    <Preference android:icon="@drawable/ic_info_outline" android:persistent="false" android:selectable="false" android:key="tracker_notifications_info" android:summary="@string/downloads_settings_info" />
+    <Preference android:persistent="false" android:title="@string/disable_battery_optimization" android:key="ignore_dose" android:summary="@string/disable_battery_optimization_summary_downloads" app:allowDividerAbove="true" app:isPreferenceVisible="false" />
+    <PreferenceCategory android:title="@string/pages_saving">
+        <Preference android:persistent="false" android:title="@string/default_page_save_dir" android:key="pages_dir" />
+        <SwitchPreferenceCompat android:title="@string/ask_for_dest_dir_every_time" android:key="pages_dir_ask" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?colorBackgroundFloating" style="?materialCardViewOutlinedStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.koitharu.kotatsu.core.ui.widgets.CoverImageView android:id="@id/imageView_thumb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+    <TextView android:textSize="14.0sp" android:textColor="?colorOnTertiary" android:ellipsize="none" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/textView_number" android:layout_width="@dimen/card_indicator_size" android:layout_height="@dimen/card_indicator_size" android:layout_margin="@dimen/card_indicator_offset" android:singleLine="true" android:textAlignment="center" />
+</com.google.android.material.card.MaterialCardView>

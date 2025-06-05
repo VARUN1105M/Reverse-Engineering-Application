@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="@dimen/margin_small" android:paddingBottom="@dimen/margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeightSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/imageView_cover" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerCrop" android:layout_marginStart="?listPreferredItemPaddingStart" app:shapeAppearance="?shapeAppearanceCornerSmall" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="?listPreferredItemPaddingEnd">
+        <TextView android:textAppearance="?textAppearanceTitleSmall" android:ellipsize="end" android:id="@id/textView_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?textAppearanceBodySmall" android:ellipsize="end" android:id="@id/textView_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

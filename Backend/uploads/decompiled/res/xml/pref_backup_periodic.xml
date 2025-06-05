@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/periodic_backups"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat android:layout="@layout/preference_toggle_header" android:title="@string/periodic_backups_enable" android:key="backup_periodic" android:defaultValue="false" />
+    <Preference android:title="@string/backups_output_directory" android:key="backup_periodic_output" android:dependency="backup_periodic" />
+    <ListPreference android:entries="@array/backup_frequency" android:title="@string/backup_frequency" android:key="backup_periodic_freq" android:dependency="backup_periodic" android:defaultValue="7" android:entryValues="@array/values_backup_frequency" app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat android:title="@string/delete_old_backups" android:key="backup_periodic_trim" android:summary="@string/delete_old_backups_summary" android:dependency="backup_periodic" android:defaultValue="true" />
+    <org.koitharu.kotatsu.settings.utils.SliderPreference android:stepSize="1.0" android:title="@string/max_backups_count" android:key="backup_periodic_count" android:dependency="backup_periodic_trim" android:valueFrom="1" android:valueTo="32" app:defaultValue="10" app:useSimpleSummaryProvider="true" />
+    <Preference android:icon="@drawable/ic_info_outline" android:persistent="false" android:selectable="false" android:key="backup_periodic_last" android:dependency="backup_periodic" app:allowDividerAbove="true" app:isPreferenceVisible="false" />
+</androidx.preference.PreferenceScreen>

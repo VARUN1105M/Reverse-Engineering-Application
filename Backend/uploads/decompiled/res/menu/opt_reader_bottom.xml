@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_grid" android:id="@id/action_pages_thumbs" android:visible="false" android:title="@string/pages" app:showAsAction="always" />
+    <item android:icon="@drawable/abc_ic_menu_overflow_material" android:id="@id/action_options" android:title="@string/options" app:showAsAction="always" />
+</menu>

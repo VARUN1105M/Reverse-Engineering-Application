@@ -1,0 +1,33 @@
+!!brut.androlib.apk.ApkInfo
+apkFileName: signed.apk
+doNotCompress:
+- resources.arsc
+- png
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+resourcesAreCompressed: false
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '35'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  kotlin-tooling-metadata.json: '8'
+  DebugProbesKt.bin: '8'
+  org/commonmark/internal/util/entities.properties: '8'
+  org/conscrypt/conscrypt.properties: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.8.1
+versionInfo:
+  versionCode: '693'
+  versionName: 7.7.1

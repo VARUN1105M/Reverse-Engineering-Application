@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/check_for_new_chapters"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat android:layout="@layout/preference_toggle_header" android:title="@string/check_new_chapters_title" android:key="tracker_enabled" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:title="@string/only_using_wifi" android:key="tracker_wifi" android:summary="@string/tracker_wifi_only_summary" android:dependency="tracker_enabled" android:defaultValue="false" />
+    <ListPreference android:entries="@array/tracker_frequency" android:title="@string/frequency_of_check" android:key="tracker_freq" android:dependency="tracker_enabled" android:defaultValue="1" android:entryValues="@array/values_tracker_frequency" app:useSimpleSummaryProvider="true" />
+    <MultiSelectListPreference android:entries="@array/track_sources" android:title="@string/track_sources" android:key="track_sources" android:dependency="tracker_enabled" android:defaultValue="@array/values_track_sources_default" android:entryValues="@array/values_track_sources" app:allowDividerAbove="true" />
+    <Preference android:title="@string/favourites_categories" android:key="track_categories" />
+    <Preference android:title="@string/notifications_settings" android:key="notifications_settings" android:dependency="tracker_enabled" android:fragment="org.koitharu.kotatsu.settings.NotificationSettingsLegacyFragment" />
+    <SwitchPreferenceCompat android:title="@string/disable_nsfw_notifications" android:key="tracker_no_nsfw" android:summary="@string/disable_nsfw_notifications_summary" android:dependency="tracker_enabled" android:defaultValue="false" />
+    <ListPreference android:entries="@array/tracker_download_strategies" android:title="@string/download_new_chapters" android:key="tracker_download" android:dependency="tracker_enabled" app:useSimpleSummaryProvider="true" />
+    <PreferenceCategory android:title="@string/debug">
+        <Preference android:persistent="false" android:title="@string/tracker_debug_info" android:key="tracker_debug" android:summary="@string/tracker_debug_info_summary" android:dependency="tracker_enabled" />
+        <Preference android:persistent="false" android:title="@string/disable_battery_optimization" android:key="ignore_dose" android:summary="@string/disable_battery_optimization_summary" android:dependency="tracker_enabled" app:isPreferenceVisible="false" />
+        <org.koitharu.kotatsu.settings.utils.LinksPreference android:icon="@drawable/ic_info_outline" android:persistent="false" android:selectable="false" android:key="track_warning" android:summary="@string/tracker_warning" />
+    </PreferenceCategory>
+</PreferenceScreen>

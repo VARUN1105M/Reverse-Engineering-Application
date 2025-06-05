@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/suggestions"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat android:layout="@layout/preference_toggle_header" android:title="@string/suggestions_enable" android:key="suggestions" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/only_using_wifi" android:key="suggestions_wifi" android:summary="@string/suggestions_wifi_only_summary" android:dependency="suggestions" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/notifications_enable" android:key="suggestions_notifications" android:summary="@string/suggestions_notifications_summary" android:dependency="suggestions" android:defaultValue="false" />
+    <org.koitharu.kotatsu.settings.utils.MultiAutoCompleteTextViewPreference android:title="@string/suggestions_excluded_genres" android:key="suggestions_exclude_tags" android:summary="@string/suggestions_excluded_genres_summary" android:dependency="suggestions" app:allowDividerAbove="true" />
+    <SwitchPreferenceCompat android:title="@string/exclude_nsfw_from_suggestions" android:key="suggestions_exclude_nsfw" android:dependency="suggestions" android:defaultValue="false" />
+    <Preference android:icon="@drawable/ic_info_outline" android:persistent="false" android:selectable="false" android:key="track_warning" android:summary="@string/suggestions_info" app:allowDividerAbove="true" />
+</PreferenceScreen>

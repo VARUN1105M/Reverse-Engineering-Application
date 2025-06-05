@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/list_selector" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/imageView_icon" android:background="?colorSurfaceContainer" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="centerCrop" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Kotatsu.Cover.Small" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="@dimen/margin_small">
+        <TextView android:textAppearance="?textAppearanceTitleSmall" android:ellipsize="end" android:id="@id/textView_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="2.0dip" />
+        <TextView android:textAppearance="?textAppearanceBodySmall" android:ellipsize="end" android:id="@id/textView_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

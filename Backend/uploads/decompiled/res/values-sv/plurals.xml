@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chapters">
+        <item quantity="other">%1$d kapitel</item>
+        <item quantity="one">%1$d kapitel</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d dagar sedan</item>
+        <item quantity="one">%1$d dag sedan</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d timmar sedan</item>
+        <item quantity="one">%1$d timme sedan</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="other">%1$d artiklar</item>
+        <item quantity="one">%1$d artikel</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d minuter sedan</item>
+        <item quantity="one">%1$d minut sedan</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
+    <plurals name="new_chapters">
+        <item quantity="other">%1$d nya kapitel</item>
+        <item quantity="one">%1$d nytt kapitel</item>
+    </plurals>
+</resources>

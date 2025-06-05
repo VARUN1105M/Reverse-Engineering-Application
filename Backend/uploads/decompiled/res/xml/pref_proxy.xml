@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/proxy"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference android:entries="@array/proxy_types" android:title="@string/type" android:key="proxy_type_2" android:defaultValue="DIRECT" android:entryValues="@array/values_proxy_types" app:useSimpleSummaryProvider="true" />
+    <EditTextPreference android:title="@string/address" android:key="proxy_address" app:useSimpleSummaryProvider="true" />
+    <EditTextPreference android:title="@string/port" android:key="proxy_port" app:useSimpleSummaryProvider="true" />
+    <PreferenceCategory android:title="@string/authorization_optional" android:key="proxy_auth">
+        <EditTextPreference android:title="@string/username" android:key="proxy_login" app:useSimpleSummaryProvider="true" />
+        <EditTextPreference android:title="@string/password" android:key="proxy_password" />
+    </PreferenceCategory>
+    <Preference android:persistent="false" android:title="Test connection" android:key="proxy_test" app:allowDividerAbove="true" />
+</PreferenceScreen>

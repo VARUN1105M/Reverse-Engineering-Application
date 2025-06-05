@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.ChipGroup android:id="@id/info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:chipSpacingHorizontal="6.0dip" app:chipSpacingVertical="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.chip.Chip android:id="@id/chip_favorite" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_heart_outline" app:ensureMinTouchTargetSize="false" style="@style/Widget.Kotatsu.Chip.Dropdown" />
+    <com.google.android.material.chip.Chip android:id="@id/chip_source" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_web" app:ensureMinTouchTargetSize="false" style="@style/Widget.Kotatsu.Chip.Assist" />
+    <com.google.android.material.chip.Chip android:id="@id/chip_author" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_user" app:ensureMinTouchTargetSize="false" style="@style/Widget.Kotatsu.Chip.Assist" />
+    <com.google.android.material.chip.Chip android:id="@id/chip_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_storage" app:ensureMinTouchTargetSize="false" style="@style/Widget.Kotatsu.Chip.Assist" />
+    <com.google.android.material.chip.Chip android:id="@id/chip_branch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_language" app:ensureMinTouchTargetSize="false" style="@style/Widget.Kotatsu.Chip.Dropdown" />
+    <com.google.android.material.chip.Chip android:id="@id/chip_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipIcon="@drawable/ic_timelapse" app:ensureMinTouchTargetSize="false" style="@style/Widget.Kotatsu.Chip.Assist" />
+</com.google.android.material.chip.ChipGroup>

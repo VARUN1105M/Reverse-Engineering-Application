@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/network"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference android:entries="@array/network_policy" android:title="@string/prefetch_content" android:key="prefetch_content" android:defaultValue="0" android:entryValues="@array/values_network_policy" app:useSimpleSummaryProvider="true" />
+    <ListPreference android:entries="@array/network_policy" android:title="@string/preload_pages" android:key="pages_preload" android:defaultValue="2" android:entryValues="@array/values_network_policy" app:useSimpleSummaryProvider="true" />
+    <PreferenceScreen android:title="@string/proxy" android:key="proxy" android:fragment="org.koitharu.kotatsu.settings.ProxySettingsFragment" app:allowDividerAbove="true" />
+    <ListPreference android:entries="@array/doh_providers" android:title="@string/dns_over_https" android:key="doh" app:useSimpleSummaryProvider="true" />
+    <ListPreference android:entries="@array/image_proxies" android:title="@string/images_proxy_title" android:key="images_proxy_2" android:defaultValue="-1" android:entryValues="@array/values_image_proxies" app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat android:title="@string/mirror_switching" android:key="mirror_switching" android:summary="@string/mirror_switching_summary" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:title="@string/ignore_ssl_errors" android:key="ssl_bypass" android:summary="@string/ignore_ssl_errors_summary" />
+    <SwitchPreferenceCompat android:title="@string/disable_connectivity_check" android:key="no_offline" android:summary="@string/disable_connectivity_check_summary" />
+</PreferenceScreen>

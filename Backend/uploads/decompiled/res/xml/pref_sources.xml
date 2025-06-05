@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/remote_sources"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference android:title="@string/sort_order" android:key="sources_sort_order" app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat android:title="@string/show_in_grid_view" android:key="sources_grid" android:defaultValue="true" />
+    <PreferenceScreen android:persistent="false" android:title="@string/manage_sources" android:key="remote_sources" android:fragment="org.koitharu.kotatsu.settings.sources.manage.SourcesManageFragment" />
+    <Preference android:persistent="false" android:title="@string/sources_catalog" android:key="sources_catalog" app:allowDividerAbove="true" />
+    <SwitchPreferenceCompat android:title="@string/disable_nsfw" android:key="no_nsfw" android:summary="@string/disable_nsfw_summary" android:defaultValue="false" />
+    <SwitchPreferenceCompat android:persistent="false" android:title="@string/handle_links" android:key="handle_links" android:summary="@string/handle_links_summary" app:allowDividerAbove="true" />
+</androidx.preference.PreferenceScreen>

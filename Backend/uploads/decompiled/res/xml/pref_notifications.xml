@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notifications"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat android:layout="@layout/preference_toggle_header" android:title="@string/notifications_enable" android:key="tracker_notifications" android:defaultValue="true" />
+    <Preference android:title="@string/notification_sound" android:key="notifications_sound" android:dependency="tracker_notifications" />
+    <CheckBoxPreference android:title="@string/vibration" android:key="notifications_vibrate" android:dependency="tracker_notifications" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/light_indicator" android:key="notifications_light" android:dependency="tracker_notifications" android:defaultValue="true" />
+    <org.koitharu.kotatsu.settings.utils.LinksPreference android:icon="@drawable/ic_info_outline" android:persistent="false" android:selectable="false" android:key="tracker_notifications_info" android:summary="@string/show_notification_new_chapters_off" app:allowDividerAbove="true" app:isPreferenceVisible="false" />
+</PreferenceScreen>

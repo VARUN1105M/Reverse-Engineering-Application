@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?listPreferredItemHeight" android:paddingStart="?listPreferredItemPaddingStart" android:paddingVertical="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?textAppearanceTitleSmall" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/textView_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="6.0dip" />
+        <TextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/textView_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/imageView_remove" android:background="?selectableItemBackgroundBorderless" android:padding="?listPreferredItemPaddingEnd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/remove" app:srcCompat="@drawable/ic_delete" />
+</LinearLayout>

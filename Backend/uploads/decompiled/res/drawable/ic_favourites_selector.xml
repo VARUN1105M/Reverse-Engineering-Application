@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:id="@id/normal" android:drawable="@drawable/ic_heart_outline" />
+    <item android:state_checked="true" android:id="@id/checked" android:drawable="@drawable/ic_heart" />
+    <transition android:drawable="@drawable/avd_favourites_enter" android:toId="@id/checked" android:fromId="@id/normal" />
+    <transition android:drawable="@drawable/avd_favourites_leave" android:toId="@id/normal" android:fromId="@id/checked" />
+</animated-selector>

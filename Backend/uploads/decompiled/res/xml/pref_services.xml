@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/services"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference android:persistent="false" android:enabled="@bool/is_sync_enabled" android:title="@string/sync" android:key="sync" android:summary="@string/sync_title" />
+    <PreferenceScreen android:enabled="false" android:title="@string/sync_settings" android:key="sync_settings" android:fragment="org.koitharu.kotatsu.settings.SyncSettingsFragment" />
+    <PreferenceScreen android:title="@string/suggestions" android:key="suggestions" android:fragment="org.koitharu.kotatsu.settings.SuggestionsSettingsFragment" app:allowDividerAbove="true" />
+    <SwitchPreferenceCompat android:title="@string/related_manga" android:key="related_manga" android:summary="@string/related_manga_summary" android:defaultValue="true" />
+    <org.koitharu.kotatsu.settings.utils.SplitSwitchPreference android:title="@string/reading_stats" android:key="stats_on" android:defaultValue="false" app:allowDividerAbove="true" />
+    <SwitchPreferenceCompat android:title="@string/reading_time_estimation" android:key="reading_time" android:summary="@string/reading_time_estimation_summary" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/tracking">
+        <Preference android:title="@string/anilist" android:key="anilist" app:icon="@drawable/ic_anilist" />
+        <Preference android:title="@string/kitsu" android:key="kitsu" app:icon="@drawable/ic_kitsu" />
+        <Preference android:title="@string/mal" android:key="mal" app:icon="@drawable/ic_mal" />
+        <Preference android:title="@string/shikimori" android:key="shikimori" app:icon="@drawable/ic_shikimori" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/screen_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.koitharu.kotatsu.core.ui.sheet.AdaptiveSheetHeaderBar android:id="@id/headerBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/reading_stats" />
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/screen_padding" android:paddingRight="@dimen/screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?textAppearanceTitleMedium" android:id="@id/textView_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/button_open" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="?minTouchTargetSize" android:minHeight="?minTouchTargetSize" app:srcCompat="@drawable/ic_open_external" />
+            </LinearLayout>
+            <org.koitharu.kotatsu.stats.ui.views.BarChartView android:id="@id/chartView" android:paddingLeft="@dimen/screen_padding" android:paddingRight="@dimen/screen_padding" android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_marginTop="12.0dip" />
+            <TextView android:textAppearance="?textAppearanceLabelSmall" android:id="@id/textView_start" android:paddingLeft="@dimen/screen_padding" android:paddingRight="@dimen/screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+            <TextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/textView_pages" android:paddingLeft="@dimen/screen_padding" android:paddingRight="@dimen/screen_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

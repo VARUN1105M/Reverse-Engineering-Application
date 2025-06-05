@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:id="@id/scrollView" android:paddingLeft="@dimen/list_spacing" android:paddingRight="@dimen/list_spacing" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.koitharu.kotatsu.core.ui.widgets.ChipsView android:id="@id/chips_tags" android:paddingTop="2.0dip" android:paddingBottom="6.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:chipStyle="@style/Widget.Kotatsu.Chip.Filter" app:selectionRequired="false" app:singleLine="true" app:singleSelection="false" />
+</HorizontalScrollView>

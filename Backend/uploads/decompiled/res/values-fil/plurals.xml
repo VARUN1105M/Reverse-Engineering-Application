@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chapters">
+        <item quantity="other">%1$d (na) kabanata</item>
+        <item quantity="one">"%1$d  kabanata"</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d (na) araw ang nakalipas</item>
+        <item quantity="one">%1$d araw ang nakalipas</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d (na) oras</item>
+        <item quantity="one">%1$d oras</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d (na) oras ang nakalipas</item>
+        <item quantity="one">%1$d oras ang nakalipas</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="other">%1$d (na) aytem</item>
+        <item quantity="one">%1$d aytem</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d (na) minuto</item>
+        <item quantity="one">%1$d minuto</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d (na) minutong nakakalipas</item>
+        <item quantity="one">%1$d minutong nakakalipas</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">%1$d (na) buwan nakakalipas</item>
+        <item quantity="one">%1$d buwan nakakalipas</item>
+    </plurals>
+    <plurals name="new_chapters">
+        <item quantity="other">%1$d mga bagong kabanata</item>
+        <item quantity="one">%1$d bagong kabanata</item>
+    </plurals>
+</resources>

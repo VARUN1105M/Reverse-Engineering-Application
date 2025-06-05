@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chapters">
+        <item quantity="other">%1$d skyrių</item>
+        <item quantity="one">%1$d skyrius</item>
+        <item quantity="few">%1$d skyriai</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">prieš %1$d dienų</item>
+        <item quantity="one">prieš %1$d dieną</item>
+        <item quantity="few">prieš %1$d dienas</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d val</item>
+        <item quantity="one">%1$d val</item>
+        <item quantity="few">%1$d val</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">prieš %1$d val</item>
+        <item quantity="one">prieš %1$d val</item>
+        <item quantity="few">prieš %1$d val</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="other">%1$d pranešimų</item>
+        <item quantity="one">%1$d pranešimas</item>
+        <item quantity="few">%1$d pranešimai</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">prieš %1$d min</item>
+        <item quantity="one">prieš %1$d min</item>
+        <item quantity="few">prieš %1$d min</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">prieš %1$d mėn</item>
+        <item quantity="one">prieš %1$d mėn</item>
+        <item quantity="few">prieš %1$d mėn</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d naujų pranešimų</item>
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+    </plurals>
+    <plurals name="new_chapters">
+        <item quantity="other">%1$d naujų skyrių</item>
+        <item quantity="one">%1$d naujas skyrius</item>
+        <item quantity="few">%1$d nauji skyriai</item>
+    </plurals>
+</resources>

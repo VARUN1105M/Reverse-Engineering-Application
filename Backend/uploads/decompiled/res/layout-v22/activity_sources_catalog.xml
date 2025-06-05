@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:liftOnScroll="false" app:liftOnScrollColor="@null">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_scrollFlags="scroll|enterAlways|snap" />
+        <HorizontalScrollView android:id="@id/scrollView_chips" android:paddingLeft="@dimen/list_spacing_large" android:paddingRight="@dimen/list_spacing_large" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/list_spacing_large">
+            <org.koitharu.kotatsu.core.ui.widgets.ChipsView android:id="@id/chips_filter" android:paddingTop="@dimen/margin_small" android:paddingBottom="@dimen/margin_small" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/margin_small" app:chipStyle="@style/Widget.Kotatsu.Chip.Filter" app:selectionRequired="false" app:singleLine="true" app:singleSelection="false" />
+        </HorizontalScrollView>
+    </com.google.android.material.appbar.AppBarLayout>
+    <org.koitharu.kotatsu.core.ui.list.fastscroll.FastScrollRecyclerView android:id="@id/recyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bubbleSize="normal" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

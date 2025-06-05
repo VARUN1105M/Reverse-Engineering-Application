@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.koitharu.kotatsu.core.ui.sheet.AdaptiveSheetHeaderBar android:id="@id/headerBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="noScroll" app:title="@string/add_to_favourites" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recyclerView_categories" android:paddingBottom="@dimen/list_spacing" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

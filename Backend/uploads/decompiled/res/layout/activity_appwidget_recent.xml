@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin">
+        <Button android:layout_gravity="end" android:id="@id/button_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/toolbar_button_margin" android:layout_marginRight="@dimen/toolbar_button_margin" android:text="@string/done" style="@style/Widget.Material3.Button.UnelevatedButton" />
+    </com.google.android.material.appbar.MaterialToolbar>
+    <com.google.android.material.materialswitch.MaterialSwitch android:textAppearance="?textAppearanceBodyMedium" android:id="@id/switch_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/background" android:paddingStart="?listPreferredItemPaddingStart" android:paddingEnd="?listPreferredItemPaddingEnd" app:layout_scrollFlags="scroll" />
+</LinearLayout>

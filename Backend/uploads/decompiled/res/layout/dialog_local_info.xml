@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="?dialogPreferredPadding" android:paddingTop="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?textAppearanceLabelMedium" android:id="@id/textView_path_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location" android:singleLine="true" />
+    <org.koitharu.kotatsu.core.ui.widgets.SelectableTextView android:textAppearance="?textAppearanceBodyMedium" android:id="@id/textView_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:textIsSelectable="true" />
+    <org.koitharu.kotatsu.core.ui.widgets.SegmentedBarView android:id="@id/barView" android:background="?colorSecondaryContainer" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginTop="12.0dip" />
+    <TextView android:id="@id/label_used" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" android:text="@string/this_manga" app:drawableStartCompat="@drawable/bg_rounded_square" style="@style/Widget.Kotatsu.TextView.Indicator" />
+    <TextView android:id="@id/label_available" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" android:text="@string/available" app:drawableStartCompat="@drawable/bg_rounded_square" app:drawableTint="?colorSecondaryContainer" style="@style/Widget.Kotatsu.TextView.Indicator" />
+    <com.google.android.material.chip.Chip android:id="@id/chip_cleanup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/delete_read_chapters" app:chipIcon="@drawable/ic_delete" style="@style/Widget.Kotatsu.Chip.Assist" />
+</LinearLayout>

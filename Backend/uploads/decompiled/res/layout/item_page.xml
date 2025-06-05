@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView android:id="@id/ssiv" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:doubleTapZoomStyle="center" app:restoreStrategy="deferred" />
+    <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?android:textColorTertiary" android:layout_gravity="end|bottom|center" android:id="@id/textView_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:singleLine="true" />
+    <include layout="@layout/layout_page_info" />
+</FrameLayout>

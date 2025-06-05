@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+        <Button android:layout_gravity="end" android:id="@id/button_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/toolbar_button_margin" android:layout_marginRight="@dimen/toolbar_button_margin" android:text="@string/save" style="@style/Widget.Material3.Button.UnelevatedButton" />
+    </com.google.android.material.appbar.MaterialToolbar>
+    <ScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls">
+        <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/layout_name" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/edit_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/name" android:maxLength="120" android:inputType="textCapSentences" android:imeOptions="actionDone" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/layout_sort" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:endIconMode="dropdown_menu">
+                <AutoCompleteTextView android:id="@id/edit_sort" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/sort_order" android:inputType="none" style="?editTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.materialswitch.MaterialSwitch android:id="@id/switch_tracker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/check_for_new_chapters" />
+            <com.google.android.material.materialswitch.MaterialSwitch android:id="@id/switch_shelf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/show_on_shelf" />
+            <TextView android:textColor="?colorError" android:id="@id/textView_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_eye_off" android:id="@id/action_disable" android:title="@string/disable" app:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_delete" android:id="@id/action_delete" android:visible="false" android:title="@string/delete" app:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_pin" android:id="@id/action_pin" android:title="@string/pin" app:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_unpin" android:id="@id/action_unpin" android:title="@string/unpin" app:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_shortcut" android:id="@id/action_shortcut" android:title="@string/create_shortcut" app:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_settings" android:id="@id/action_settings" android:title="@string/settings" app:showAsAction="ifRoom|withText" />
+</menu>

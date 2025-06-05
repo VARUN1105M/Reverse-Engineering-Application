@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chapters">
+        <item quantity="other">%1$d peatükki</item>
+        <item quantity="one">%1$d peatükk</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d päeva tagasi</item>
+        <item quantity="one">%1$d päev tagasi</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d tundi</item>
+        <item quantity="one">%1$d tund</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d tundi tagasi</item>
+        <item quantity="one">%1$d tund tagasi</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="other">%1$d asja</item>
+        <item quantity="one">%1$d asi</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d minutit</item>
+        <item quantity="one">%1$d minut</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d minutit tagasi</item>
+        <item quantity="one">%1$d minut tagasi</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">%1$d kuud tagasi</item>
+        <item quantity="one">%1$d kuu tagasi</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uut märguannet</item>
+        <item quantity="one">%d uus märguanne</item>
+    </plurals>
+    <plurals name="new_chapters">
+        <item quantity="other">%1$d uut peatükki</item>
+        <item quantity="one">%1$d uus peatükk</item>
+    </plurals>
+</resources>

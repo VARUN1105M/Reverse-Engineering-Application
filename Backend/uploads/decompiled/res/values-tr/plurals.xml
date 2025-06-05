@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="chapters">
+        <item quantity="other">%1$d bölüm</item>
+        <item quantity="one">%1$d bölüm</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d gün önce</item>
+        <item quantity="one">%1$d gün önce</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d saat</item>
+        <item quantity="one">%1$d saat</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d saat önce</item>
+        <item quantity="one">%1$d saat önce</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="other">%1$d öge</item>
+        <item quantity="one">%1$d öge</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d dakika</item>
+        <item quantity="one">%1$d dakika</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d dakika önce</item>
+        <item quantity="one">%1$d dakika önce</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="other">%1$d ay önce</item>
+        <item quantity="one">%1$d ay önce</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="new_chapters">
+        <item quantity="other">%1$d yeni bölüm</item>
+        <item quantity="one">%1$d yeni bölüm</item>
+    </plurals>
+</resources>

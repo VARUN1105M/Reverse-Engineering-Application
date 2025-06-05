@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.koitharu.kotatsu.core.ui.sheet.AdaptiveSheetHeaderBar android:id="@id/headerBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/chapters" />
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="start" android:id="@id/tabs" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="start" app:tabMode="scrollable" app:tabUnboundedRipple="false" style="@style/Widget.Material3.TabLayout.Secondary" />
+    </com.google.android.material.appbar.MaterialToolbar>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
